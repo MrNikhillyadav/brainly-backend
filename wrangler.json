@@ -1,8 +1,11 @@
 {
-    "name": "brainly-backend",
+    
+    "name": "my-app-hono",
     "main": "src/index.ts",
+    "compatibility_date": "2025-04-03",
     "vars": {
       "MONGO_URL": "mongodb+srv://nikyadav20032003:vtBu7t5GiY8sezWU@cluster0.xiefd.mongodb.net/Brainly-app"
     }
+    
   }
   
