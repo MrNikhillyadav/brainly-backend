@@ -1,11 +1,34 @@
 {
-    
-    "name": "my-app-hono",
-    "main": "src/index.ts",
-    "compatibility_date": "2025-04-03",
-    "vars": {
-      "MONGO_URL": "mongodb+srv://nikyadav20032003:vtBu7t5GiY8sezWU@cluster0.xiefd.mongodb.net/Brainly-app"
-    }
-    
+  "name": "api-brainly",
+  "main": "src/index.ts",
+  "compatibility_date": "2025-04-03",
+  "vars": {
+    "MONGO_URL": "mongodb+srv://nikyadav20032003:vtBu7t5GiY8sezWU@cluster0.xiefd.mongodb.net/Brainly-app"
   }
-  
+//   "kv_namespaces": [
+//     {
+//       "binding": "MY_KV_NAMESPACE",
+//       "id": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+//     }
+//   ],
+//   "r2_buckets": [
+//     {
+//       "binding": "MY_BUCKET",
+//       "bucket_name": "my-bucket"
+//     }
+//   ],
+//   "d1_databases": [
+//     {
+//       "binding": "MY_DB",
+//       "database_name": "my-database",
+//       "database_id": ""
+//     }
+//   ],
+//   "ai": {
+//     "binding": "AI"
+//   },
+//   "observability": {
+//     "enabled": true,
+//     "head_sampling_rate": 1
+//   }
+}
