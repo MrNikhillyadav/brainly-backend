@@ -6,8 +6,7 @@
   "scripts": {
     "build": "tsc -b",
     "start": "node dist/index.js",
-    "dev": "npm run build && npm run start && wrangler dev",
-    "deploy": "wrangler deploy --minify"
+    "dev": "npm run build && npm run start"
   },
   "keywords": [],
   "author": "",
